@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="../css/estilo_descr_product.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/producto.js"></script>
+</head>
+<body>
+     <!--Seccion de las imagenes de la barra del menu-->
+     <main class="main-container">
+        <header class="header">
+        <div class="header__imagen">
+            <img class="header__logo" src="../imagenes/logo.png" alt="logo">
+    
+    <!--barra de navegacion del menu-->
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li><a class="navbar__nombre" href="#">Productos</a></li>
+        <li><a class="navbar__nombre" href="../html/index.html">Inicio</a></li>
+        <li><a class="navbar__nombre" href="#">Nosotros</a></li>
+        <li><a class="navbar__nombre" href="#">Contactenos</a></li>
+      </ul>
+    </nav>
+    </div>
+
+
+    <!--personaje carrito y el icono del carrito-->
+    <div class="header__carrito-usuario">
+        <div class="header__carrito-usuario">
+          <div class="header__carrito--notificacion">0</div> <!--numero que servirá para incrementar cada vez que el cliente agregue algo-->
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i> <!--icono del carrito-->
+        </div>
+        <i class="fa-solid fa-user"></i> <!--icono del usuario-->
+      </div>
+    </header>
+    
+
+    <!--Seccion de los prouctos-->
+
+    <div class="contenedor">
+      <div class="contenedor__categoria">
+        <div class="categoria__lista">
+            <a href="#" class="categoria__item" category="todo">Todo</a>
+            <a href="#" class="categoria__item" category="rams">Rams</a>
+            <a href="#" class="categoria__item" category="monitores">Monitores</a>
+            <a href="#" class="categoria__item" category="perifericos">Perifericos</a>
+            <a href="#" class="categoria__item" category="tarjetas_graficas">Tarjetas Graficas</a>
+            <a href="#" class="categoria__item" category="procesadores">procesadores</a>
+        </div>
+        <section class="productos__lista">
+            <div class="producto-item" category="monitores">
+              <img src="../imagenes/teros-1.jpg" alt="" >
+              <a href="../html/producto-2.html">Monitor Curvo Gamer Teros TE-3177N</a>
+            </div>
+            <div class="producto-item" category="rams">
+              <img src="../imagenes/ram-fury-1.jpg" alt="" >
+              <a href="../html/producto-3.html">Kingston FURY Beast 8GB Single-Kit</a>
+            </div>
+            <div class="producto-item" category="tarjetas_graficas">
+              <img src="../imagenes/RTX-2060-1.jpg" alt="" >
+              <a href="./producto-4.html">MSI RTX 2060 SUPER VENTUS GP OC</a>
+            </div>
+            <div class="producto-item" category="procesadores">
+              <img src="../imagenes/i5-11400-1.jpg" alt="" >
+              <a href="./producto-5.html">Procesador Intel® Core™ i5-11400 4.40 GHz</a>
+            </div>
+            <div class="producto-item" category="perifericos">
+              <img src="../imagenes/image-product-1.jpg" category="perifericos">
+              <a href="./productos-1.html">Hyperx Pulsefire Haste Mouse Inalámbrico</a>
+            </div>
+        </section >
+      </div>
+    </div>
+</body>
+</html>

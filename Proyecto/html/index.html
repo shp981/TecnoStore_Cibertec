@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnostore</title>
+    <!--link para jalar los iconos de fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+     <link rel="stylesheet" href="../css/estilos.css"> <!--link css-->
+    <script src="../js/estilo.js"></script>
+</head>
+<body>
+            <!--Seccion de las imagenes de la barra del menu-->
+            <main class="main-container">
+                <header class="header">
+                <div class="header__imagen">
+                    <a href="index.html"><img class="header__logo" src="../imagenes/logo.png" alt="logo"></a>
+            
+            <!--barra de navegacion del menu-->
+            <nav class="navbar">
+              <ul class="navbar__menu">
+                <li><a class="navbar__nombre" href="./descrip_producto.html">Productos</a></li>
+                <li><a class="navbar__nombre" href="./index.html">Inicio</a></li>
+                <li><a class="navbar__nombre" href="#Nosotros">Nosotros</a></li>
+                <li><a class="navbar__nombre" href="#Contactenos">Contactenos</a></li>
+              </ul>
+            </nav>
+            </div>
+
+
+            <!--personaje carrito y el icono del carrito-->
+            <div class="header__carrito-usuario">
+                <div class="header__carrito-usuario">
+                  <div class="header__carrito--notificacion">0</div> <!--numero que servirá para incrementar cada vez que el cliente agregue algo-->
+                  <i class="fa-sharp fa-solid fa-cart-shopping"></i> <!--icono del carrito-->
+                </div>
+                <i class="fa-solid fa-user"></i> <!--icono del usuario-->
+              </div>
+            </header>
+
+            <!--Seccion del banner-->
+            <img class="banner" id="imgbaner" src="../imagenes/banner_1.png"/>
+
+            <!--Seccion de ofertas-->
+            <div class="ofertas__contenedor">
+                <div class="ofertas">
+                    <div class="ofertas__titulo">
+                        <h2>Ofertas</h2>
+                    </div>
+                    <div class="productos__contenedor">
+                        <div class="ofertas__productos">
+                            <img src="../imagenes/teros-1.jpg" alt="">
+                            <div class="producto__titulo">
+                                <h1>Monitor Curvo Gamer Teros TE-3177N</h1>
+                                <div class="button__contenedor">
+                                    <a class="button" href="../html/producto-2.html"> Mas Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ofertas__productos">
+                            <img src="../imagenes/image-product-1.jpg" alt="">
+                            <div class="producto__titulo">
+                                <h1>Hyperx Pulsefire Haste Mouse Inalámbrico</h1>
+                                <div class="button__contenedor">
+                                    <a class="button" href="../html/productos-1.html"> Mas Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ofertas__productos">
+                            <img src="../imagenes/ram-fury-1.jpg" alt="">
+                            <div class="producto__titulo">
+                                <h1>Kingston FURY Beast 8GB Single-Kit DDR4-3600 CL17</h1>
+                                <div class="button__contenedor">
+                                    <a class="button" href="../html/producto-3.html"> Mas Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ofertas__productos">
+                            <img src="../imagenes/RTX-2060-1.jpg" alt="">
+                            <div class="producto__titulo">
+                                <h1>MSI RTX 2060 SUPER VENTUS GP OC</h1>
+                                <div class="button__contenedor">
+                                    <a class="button" href="../html/producto-4.html"> Mas Info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ofertas__productos">
+                            <img src="../imagenes/i5-11400-1.jpg" alt="">
+                            <div class="producto__titulo">
+                                <h1>Procesador Intel® Core™ i5-11400 4.40 GHz </h1>
+                                <div class="button__contenedor">
+                                    <a class="button" href="../html/producto-5.html"> Mas Info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Seccion de quienes somos-->
+            <hr>
+            <div class="somos__contenedor">
+            <div class="somos">
+                    <div class="somos__texto" id="Nosotros">
+                        <h1 class="somos__titulo">¿Quiénes somos?</h1>
+                        <p class="somos__info">Tienda Tecnostore S.A. es una empresa emergente peruana comercializadora 
+                            de computadoras y minorista de equipos de cómputo, 
+                            componentes, suministros y periféricos que busca competir 
+                            en el mercado de la tecnología de la información en nuestro país.
+                            Buscamos responder a las demandas de tecnología informática del consumidor nacional, 
+                            pero también tener una constante mejora de nuestros procesos y servicios.</p>
+                    </div>
+            <!--imagen de quienes somos-->
+                    <div class="somos__imagen">    
+                            <img class="somos__imagen-img" src="../imagenes/quienes_somos.jpg" alt="">
+                    </div>
+            </div>
+            </div>
+            <hr>
+            <!--fin de la seccion quienes somos-->
+             <!--Contactanos-->
+            <div class="contacto__contenedor" id="Contactenos">
+            <div class="contacto">
+                <div class="contacto__info">
+                    <h2 class="contacto__parrafo">Contactanos</h2>
+                       <h4 class="contacto__titulo">Direccion</h4>
+                       <p class="contacto__parrafo">Av. Inca Garcilaso de la Vega 1251, Lima 15001</p>
+                       <h4 class="contacto__titulo">Email</h4>
+                       <p class="contacto__parrafo">contacto@tecnostore.pe</p>
+                       <h4 class="contacto__titulo">Telefono</h4>
+                       <p class="contacto__parrafo">998881231</p>
+                </div>
+                <div class="contacto__datos--cliente">
+                    <form action="" onsubmit="form(this)">
+                        <p>
+                            <label>Nombres</label>
+                            <input type="text" name="fullname">
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p class="block">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            </div>
+            <!--Mapa de ubicacion-->
+            <div class="mapa__contenedor">
+                <div class="mapa">
+                    <ul class="mapa__link">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8312017248904!2d-77.03993258613426!3d-12.055132445336179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c66039e27f%3A0xf87b9752d3eeb99c!2sGaleria%20COMPUPLAZA!5e0!3m2!1ses-419!2spe!4v1655566992117!5m2!1ses-419!2spe" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+                </div>
+            </div>
+</body>
+     <!--Vincular JS-->
+     <script type="text/javascript" src="../js/banner.js"></script>
+        <!--footer-->
+        <footer class="footer__contenedor">
+            <div class="footer">
+                <div class="footer__redes-contenedor">
+                    <div class="footer__logo-contenedor">
+                        <img class="footer__logo" src="../imagenes/logo.png" alt=""> 
+                    </div>
+                    <div class="footer__redes">
+                        <img src="../imagenes/facebook.png" class="redes__logo" alt=""> <!--icono de facebook-->
+                        <img src="../imagenes/instagram.png" class="redes__logo" alt=""><!--icono de instagram-->
+                        <img src="../imagenes/twitter.png" class="redes__logo" alt=""><!--icono de twitter-->
+                        <img src="../imagenes/whatsapp.png" class="redes__logo" alt="">
+                    </div>
+                </div>
+                <div class="footer__visitanos">
+                    <br>
+                    <h3 class="visitanos__titulo">VISITANOS</h3>
+                  
+                    <p>Av. Inca Garcilaso de la Vega 1251, Lima 15001</p>
+                    <p>998881231</p>
+                    <p>contacto@tecnostore.pe</p>
+                </div>
+                <div class="footer__horarios">
+                    <h3 class="horarios__titulo">HORARIOS DE ATENCION</h3>
+                    <ul>
+                        <li><strong>Lunes - Viernes:</strong></li>
+                        <li> 8:00AM - 10:00AM</li>
+                        <li>  6:00PM - 10:00PM</li>
+                        <li><strong>Sabados</strong>:</li>
+                        <li> 9:30AM - 2:00PM</p></li>
+                    </ul>
+                    <p>
+                </div>
+                <div class="footer__suscribete">
+                    <h3 class="suscribete__titulo">SUSCRIBETE</h3>
+                    <form action="" onsubmit="frm_1(this)" class="suscribete_form">
+                        <p>
+                            <label>Email</label>
+                            <input name="correo" placeholder="Ingrese su correo">
+                        </p>
+                        <p class="block">
+                            <button class="suscribete__button">
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <script src="../js/formulario.js"></script>
+        <script src="../js/enlaces_menu.js"></script>
+</html>
